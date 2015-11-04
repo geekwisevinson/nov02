@@ -1,8 +1,13 @@
-
+@import url(https://fonts.googleapis.com/css?family=Play:400,700|Ubuntu:400,500);
 *{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+}
+
+html,body{
+    width:100%;
+    height:100%;
 }
 
 textarea{
@@ -35,11 +40,12 @@ width:30%;
     margin:0;
 }
 span {
+    font-family: 'Play', 'Ubuntu', sans-serif;
     display:flex;
     flex-direction: column;
     width:40%;
     justify-content: center;
-    margin:20px auto;
+    margin: 3% 30%;
     background-color: hsla(185,50%,45%,1);
     padding:40px;
     text-align: center;
@@ -87,4 +93,19 @@ h3{
 #gist_select_wrapper>button{
     flex:.2;
     background-color: red;
+}
+
+img {
+    height: 105px;
+    margin-left: 1%;
+}
+
+h1 {
+    float: left;
+    margin-left: 31%;
+    font-size: 3rem;
+}
+
+@media screen (max-width: ){
+    
 }
